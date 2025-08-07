@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inaya Mahnoor - Baby Portfolio</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👶</text></svg>">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1 class="baby-name">Inaya Mahnoor</h1>
+      <p class="baby-info">Born April 22, 2025</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Gallery Grid -->
+      <div id="gallery" class="gallery-grid"></div>
+      
+      <!-- Thumbnail Navigation -->
+      <div class="thumbnail-nav">
+        <div id="thumbnails" class="thumbnails-container"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Full Screen Modal -->
+  <div id="fullscreen-modal" class="fullscreen-modal">
+    <div class="modal-content">
+      <button class="close-btn" id="close-modal">&times;</button>
+      <button class="nav-btn prev-btn" id="prev-btn">&lt;</button>
+      <button class="nav-btn next-btn" id="next-btn">&gt;</button>
+      
+      <div class="modal-media-container">
+        <img id="modal-image" class="modal-image" src="" alt="">
+        <video id="modal-video" class="modal-video" controls>
+          <source src="" type="video/mp4">
+        </video>
+      </div>
+      
+      <div class="modal-info">
+        <span id="modal-filename"></span>
+        <span id="modal-counter"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loading Spinner -->
+  <div id="loading" class="loading">
+    <div class="spinner"></div>
+    <p>Loading precious moments...</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
