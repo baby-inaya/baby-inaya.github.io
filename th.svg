@@ -1,0 +1,110 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#1a0f3b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#00eaff" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#7b61ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="pillGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d2a3a"/>
+      <stop offset="100%" stop-color="#112f5a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="100%" stop-color="#7b61ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+
+  <!-- Decorative grid -->
+  <g opacity="0.12">
+    <g stroke="#8a9dbb" stroke-width="1">
+      <path d="M0 140 H1280 M0 260 H1280 M0 380 H1280 M0 500 H1280 M0 620 H1280" />
+      <path d="M120 0 V720 M300 0 V720 M480 0 V720 M660 0 V720 M840 0 V720 M1020 0 V720"/>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <g font-family="Segoe UI, Inter, Poppins, Arial, sans-serif">
+    <text x="80" y="210" font-size="96" font-weight="900" fill="#f6f8ff" letter-spacing="0.5">
+      Run LLMs Locally
+    </text>
+    <text x="80" y="280" font-size="52" font-weight="700" fill="url(#accent)">
+      with LM Studio
+    </text>
+
+    <!-- Pills -->
+    <g transform="translate(80,320)">
+      <g>
+        <rect x="0" y="0" rx="14" ry="14" width="150" height="44" fill="url(#pillGrad)" stroke="#1c5a7a" stroke-opacity="0.6"/>
+        <text x="20" y="30" font-size="22" fill="#d9e6ff">Install</text>
+      </g>
+      <g transform="translate(170,0)">
+        <rect x="0" y="0" rx="14" ry="14" width="150" height="44" fill="url(#pillGrad)" stroke="#1c5a7a" stroke-opacity="0.6"/>
+        <text x="24" y="30" font-size="22" fill="#d9e6ff">Model</text>
+      </g>
+      <g transform="translate(340,0)">
+        <rect x="0" y="0" rx="14" ry="14" width="190" height="44" fill="url(#pillGrad)" stroke="#1c5a7a" stroke-opacity="0.6"/>
+        <text x="16" y="30" font-size="22" fill="#d9e6ff">HuggingFace</text>
+      </g>
+      <g transform="translate(540,0)">
+        <rect x="0" y="0" rx="14" ry="14" width="170" height="44" fill="url(#pillGrad)" stroke="#1c5a7a" stroke-opacity="0.6"/>
+        <text x="18" y="30" font-size="22" fill="#d9e6ff">API Server</text>
+      </g>
+    </g>
+
+    <!-- Live badge -->
+    <g transform="translate(80,110)">
+      <rect x="0" y="-28" rx="20" ry="20" width="154" height="40" fill="#ff2d55" filter="url(#softShadow)"/>
+      <circle cx="26" cy="-8" r="6" fill="#fff"/>
+      <text x="40" y="-5" font-size="22" font-weight="800" fill="#fff">LIVE SETUP</text>
+    </g>
+  </g>
+
+  <!-- Right side: pseudo app panel -->
+  <g transform="translate(760,120)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="420" height="480" rx="18" fill="#0e1430" stroke="#283a7a" stroke-opacity="0.6"/>
+    <rect x="0" y="0" width="420" height="44" rx="18" fill="#121a3d"/>
+    <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+    <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+    <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+    <text x="92" y="29" font-family="Consolas, Menlo, monospace" font-size="18" fill="#bcd1ff">LM Studio • localhost:1234</text>
+
+    <!-- Code-ish lines -->
+    <g font-family="Consolas, Menlo, monospace" font-size="16">
+      <text x="24" y="88" fill="#7be0ff"># locally run llm</text>
+      <text x="24" y="118" fill="#b5c7ff">model:</text>
+      <text x="100" y="118" fill="#79ffb4">"llama-3-instruct"</text>
+      <text x="24" y="148" fill="#b5c7ff">server:</text>
+      <text x="100" y="148" fill="#79ffb4">"http://localhost:1234/v1"</text>
+      <text x="24" y="178" fill="#b5c7ff">framework:</text>
+      <text x="130" y="178" fill="#79ffb4">"lm studio ai"</text>
+      <text x="24" y="228" fill="#7be0ff"># local llm install</text>
+      <rect x="24" y="242" width="372" height="36" rx="10" fill="#0b1b35" stroke="#224477"/>
+      <text x="38" y="266" fill="#a3b9ff">Download › Select model › Start server</text>
+
+      <text x="24" y="318" fill="#7be0ff"># local llm comparison</text>
+      <rect x="24" y="332" width="372" height="36" rx="10" fill="#0b1b35" stroke="#224477"/>
+      <text x="38" y="356" fill="#a3b9ff">LLaMA vs Phi vs Mistral (demo)</text>
+
+      <text x="24" y="408" fill="#7be0ff"># local llm huggingface</text>
+      <rect x="24" y="422" width="372" height="36" rx="10" fill="#0b1b35" stroke="#224477"/>
+      <text x="38" y="446" fill="#a3b9ff">Browse + import from HF</text>
+    </g>
+  </g>
+
+  <!-- Accent orbs -->
+  <g opacity="0.35">
+    <circle cx="1160" cy="80" r="140" fill="#7b61ff"/>
+    <circle cx="980" cy="650" r="120" fill="#00eaff"/>
+  </g>
+</svg>

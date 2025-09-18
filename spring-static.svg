@@ -1,0 +1,63 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1411"/>
+      <stop offset="100%" stop-color="#0f2d21"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="35%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2cff95" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#00e38a" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00ffa3"/>
+      <stop offset="100%" stop-color="#54ff6d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+
+  <!-- Title: short, very large, two lines -->
+  <g font-family="Inter, Segoe UI, Poppins, Arial, sans-serif">
+    <text x="80" y="260" font-size="120" font-weight="900" fill="#f6fff8" letter-spacing="0.5">Serve Static</text>
+    <text x="80" y="380" font-size="120" font-weight="900" fill="url(#accent)" letter-spacing="0.5">in Spring Boot</text>
+    <text x="80" y="460" font-size="50" font-weight="800" fill="#caffdb">Files • HTML • 404 Fixes</text>
+  </g>
+
+  <!-- Right-side simple icon cluster (no overlap with title) -->
+  <g transform="translate(980,180)" filter="url(#softShadow)">
+    <!-- Folder icon -->
+    <g>
+      <path d="M0 48 L110 48 L130 70 L240 70 Q256 70 256 86 L256 210 Q256 226 240 226 L16 226 Q0 226 0 210 Z" fill="#0e261c" stroke="#1c6a46" stroke-opacity="0.7"/>
+      <rect x="0" y="86" width="256" height="6" fill="#1c6a46" opacity="0.6"/>
+      <rect x="24" y="104" width="84" height="18" rx="4" fill="#143a2a"/>
+      <rect x="24" y="132" width="64" height="18" rx="4" fill="#143a2a"/>
+      <rect x="24" y="160" width="104" height="18" rx="4" fill="#143a2a"/>
+    </g>
+
+    <!-- Spring leaf badge -->
+    <g transform="translate(206,18)">
+      <circle cx="0" cy="0" r="28" fill="#0f2e21" stroke="#1c6a46" stroke-opacity="0.85"/>
+      <path d="M-10 10 C-22 -8, 8 -14, 16 -2 C14 14, -2 18, -10 10 Z" fill="#6db33f"/>
+      <path d="M-3 6 C4 2, 8 0, 12 2" stroke="#e9ffe9" stroke-width="2" fill="none" opacity="0.8"/>
+    </g>
+
+    <!-- Java cup badge (placed below, vertically aligned) -->
+    <g transform="translate(206,80)">
+      <circle cx="0" cy="0" r="28" fill="#0f2e21" stroke="#1c6a46" stroke-opacity="0.85"/>
+      <path d="M-10 6 h20 a6 6 0 0 1 0 12 h-20 z" fill="#caffdb"/>
+      <path d="M12 10 a6 6 0 0 1 0 12" stroke="#caffdb" stroke-width="3" fill="none"/>
+      <path d="M-6 -6 C-2 -12, 2 -6, 0 0" stroke="#ffbfa3" stroke-width="2" fill="none"/>
+      <path d="M2 -8 C6 -14, 10 -8, 8 -2" stroke="#ffbfa3" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Safety note: No elements extend into left title area beyond x=900, ensuring no overlap -->
+</svg>
+
+
+

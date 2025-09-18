@@ -1,0 +1,120 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#081611"/>
+      <stop offset="100%" stop-color="#0f2e21"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#52ffa1" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#00e38a" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00ffa3"/>
+      <stop offset="100%" stop-color="#54ff6d"/>
+    </linearGradient>
+    <linearGradient id="pillGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d2b1e"/>
+      <stop offset="100%" stop-color="#123b2a"/>
+    </linearGradient>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.10" stroke="#7fbf9d" stroke-width="1">
+    <path d="M0 140 H1280 M0 260 H1280 M0 380 H1280 M0 500 H1280 M0 620 H1280"/>
+    <path d="M120 0 V720 M300 0 V720 M480 0 V720 M660 0 V720 M840 0 V720 M1020 0 V720"/>
+  </g>
+
+  <!-- left copy -->
+  <g font-family="Segoe UI, Inter, Poppins, Arial, sans-serif">
+    <text x="80" y="210" font-size="92" font-weight="900" fill="#f6fff8" letter-spacing="0.5">Spring Boot Scheduler</text>
+    <text x="80" y="280" font-size="52" font-weight="800" fill="url(#accent)">Cron • Fixed Rate • Batch Jobs</text>
+
+    <!-- tech icons: Spring + Java (relocated to top-right empty area) -->
+    <g transform="translate(1120,110)">
+      <!-- Spring icon badge -->
+      <g>
+        <circle cx="0" cy="0" r="24" fill="#0e261c" stroke="#1c6a46" stroke-opacity="0.8"/>
+        <path d="M-8 8 C-18 -6, 6 -12, 12 -2 C11 10, -2 14, -8 8 Z" fill="#6db33f"/>
+        <path d="M-3 5 C3 2, 6 1, 9 2" stroke="#e9ffe9" stroke-width="1.8" fill="none" opacity="0.8"/>
+      </g>
+      <!-- Java icon badge -->
+      <g transform="translate(60,0)">
+        <circle cx="0" cy="0" r="24" fill="#0e261c" stroke="#1c6a46" stroke-opacity="0.8"/>
+        <path d="M-10 6 h18 a6 6 0 0 1 0 12 h-18 z" fill="#caffdb"/>
+        <path d="M10 10 a6 6 0 0 1 0 12" stroke="#caffdb" stroke-width="2.5" fill="none"/>
+        <path d="M-5 -6 C-1 -11, 2 -6, 0 -1" stroke="#ffbfa3" stroke-width="2" fill="none"/>
+        <path d="M2 -7 C6 -13, 10 -7, 8 -2" stroke="#ffbfa3" stroke-width="2" fill="none"/>
+      </g>
+    </g>
+
+    <!-- pills -->
+    <g transform="translate(80,320)">
+      <g>
+        <rect x="0" y="0" rx="14" ry="14" width="130" height="44" fill="url(#pillGrad)" stroke="#1c6a46" stroke-opacity="0.6"/>
+        <text x="22" y="30" font-size="20" fill="#d9ffe9">Cron</text>
+      </g>
+      <g transform="translate(150,0)">
+        <rect x="0" y="0" rx="14" ry="14" width="160" height="44" fill="url(#pillGrad)" stroke="#1c6a46" stroke-opacity="0.6"/>
+        <text x="20" y="30" font-size="20" fill="#d9ffe9">Fixed Rate</text>
+      </g>
+      <g transform="translate(320,0)">
+        <rect x="0" y="0" rx="14" ry="14" width="170" height="44" fill="url(#pillGrad)" stroke="#1c6a46" stroke-opacity="0.6"/>
+        <text x="20" y="30" font-size="20" fill="#d9ffe9">Fixed Delay</text>
+      </g>
+      <g transform="translate(500,0)">
+        <rect x="0" y="0" rx="14" ry="14" width="130" height="44" fill="url(#pillGrad)" stroke="#1c6a46" stroke-opacity="0.6"/>
+        <text x="20" y="30" font-size="20" fill="#d9ffe9">Batch</text>
+      </g>
+    </g>
+
+    <!-- badge -->
+    <g transform="translate(80,110)">
+      <rect x="0" y="-28" rx="20" ry="20" width="178" height="40" fill="#1fd66e" filter="url(#softShadow)"/>
+      <circle cx="26" cy="-8" r="6" fill="#08361f"/>
+      <text x="40" y="-5" font-size="22" font-weight="900" fill="#08361f">TUTORIAL</text>
+    </g>
+  </g>
+
+  <!-- right "code" panel (further adjusted to clear left header area) -->
+  <g transform="translate(900,260)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="380" height="460" rx="18" fill="#0a1f17" stroke="#2b7a55" stroke-opacity="0.6"/>
+    <rect x="0" y="0" width="380" height="44" rx="18" fill="#0e2b21"/>
+    <circle cx="24" cy="22" r="6" fill="#6db33f"/>
+    <circle cx="44" cy="22" r="6" fill="#ffd166"/>
+    <circle cx="64" cy="22" r="6" fill="#ef476f"/>
+    <text x="92" y="29" font-family="Consolas, Menlo, monospace" font-size="18" fill="#caffdb">Spring Boot • Scheduler</text>
+
+    <g font-family="Consolas, Menlo, monospace" font-size="16">
+      <text x="24" y="88" fill="#7bffb2">// job scheduler in spring boot</text>
+      <text x="24" y="118" fill="#bfffd8">@Scheduled(cron = "0 0/5 * * * *")</text>
+      <text x="24" y="144" fill="#a9d9c2">public void runEvery5min() { /* ... */ }</text>
+
+      <text x="24" y="192" fill="#7bffb2">// fixedRate</text>
+      <text x="24" y="218" fill="#bfffd8">@Scheduled(fixedRate = 60000)</text>
+      <text x="24" y="244" fill="#a9d9c2">public void rateJob() { /* ... */ }</text>
+
+      <text x="24" y="292" fill="#7bffb2">// fixedDelay with initialDelay</text>
+      <text x="24" y="318" fill="#bfffd8">@Scheduled(fixedDelay = 30000, initialDelay = 5000)</text>
+      <text x="24" y="344" fill="#a9d9c2">public void delayJob() { /* ... */ }</text>
+
+      <text x="24" y="392" fill="#7bffb2">// ThreadPoolTaskScheduler</text>
+      <text x="24" y="418" fill="#bfffd8">@Bean ThreadPoolTaskScheduler scheduler()</text>
+      <text x="24" y="444" fill="#a9d9c2">{ setPoolSize(4); setRemoveOnCancelPolicy(true); }</text>
+    </g>
+  </g>
+
+  <!-- decorative orbs -->
+  <g opacity="0.35">
+    <circle cx="1150" cy="90" r="140" fill="#1fd66e"/>
+    <circle cx="980" cy="650" r="120" fill="#00ffa3"/>
+  </g>
+</svg>
+
+

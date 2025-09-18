@@ -1,0 +1,81 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f16"/>
+      <stop offset="100%" stop-color="#111a2b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="35%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#5cffc4" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#2bb0ff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00ffa3"/>
+      <stop offset="100%" stop-color="#2bb0ff"/>
+    </linearGradient>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+
+  <!-- Title: bigger, split into three lines to avoid width overlap -->
+  <g font-family="Inter, Segoe UI, Poppins, Arial, sans-serif">
+    <text x="80" y="260" font-size="132" font-weight="900" fill="#ffffff" letter-spacing="0.5">Extract Frames</text>
+    <text x="80" y="400" font-size="120" font-weight="900" fill="url(#accent)" letter-spacing="0.5">FFmpeg</text>
+    <text x="80" y="520" font-size="120" font-weight="900" fill="url(#accent)" letter-spacing="0.5">on Windows</text>
+    <text x="80" y="620" font-size="54" font-weight="800" fill="#cfe9ff">1 Command • MP4 / iPhone</text>
+  </g>
+
+  <!-- Right-side minimal artwork, scaled up and confined to x >= 960 -->
+  <g transform="translate(980,150) scale(1.18)" filter="url(#softShadow)">
+    <!-- Film strip card -->
+    <g>
+      <rect x="0" y="0" width="260" height="180" rx="16" fill="#0e1626" stroke="#00d2ff" stroke-opacity="0.9"/>
+      <rect x="14" y="18" width="232" height="36" rx="8" fill="#0c213a"/>
+      <rect x="14" y="64" width="232" height="90" rx="8" fill="#0c213a"/>
+      <!-- frame slots -->
+      <rect x="26" y="76" width="48" height="66" rx="6" fill="#0ea5ff" opacity="0.85"/>
+      <rect x="84" y="76" width="48" height="66" rx="6" fill="#00ffc6" opacity="0.85"/>
+      <rect x="142" y="76" width="48" height="66" rx="6" fill="#0ea5ff" opacity="0.85"/>
+      <rect x="200" y="76" width="32" height="66" rx="6" fill="#00ffc6" opacity="0.85"/>
+    </g>
+
+    <!-- Snapshot badge -->
+    <g transform="translate(210,140)">
+      <circle cx="0" cy="0" r="32" fill="#0e261c" stroke="#00ffc6" stroke-opacity="1"/>
+      <rect x="-14" y="-12" width="28" height="22" rx="6" fill="#00ffc6"/>
+      <circle cx="0" cy="-2" r="6" fill="#0e261c"/>
+    </g>
+
+    <!-- Tiny command pill -->
+    <g transform="translate(0,210)">
+      <rect x="0" y="0" width="260" height="58" rx="14" fill="#0c213a" stroke="#00d2ff"/>
+      <text x="14" y="38" font-family="Consolas, Menlo, monospace" font-size="18" fill="#cfe9ff">ffmpeg -ss 5 -i in.mp4 -frames:v 1 out.png</text>
+    </g>
+
+    <!-- Top-right badges: FFmpeg + Windows -->
+    <g transform="translate(220,-44)">
+      <!-- FFmpeg badge (green wave) -->
+      <g>
+        <circle cx="0" cy="0" r="26" fill="#0e261c" stroke="#00ffc6" stroke-opacity="1"/>
+        <path d="M-12 7 C-5 -7, 7 -7, 12 7" stroke="#00ffc6" stroke-width="3.4" fill="none"/>
+        <path d="M-12 -2 C-5 -14, 7 -14, 12 0" stroke="#5cffc4" stroke-width="2.4" fill="none"/>
+      </g>
+      <!-- Windows badge (four tiles) -->
+      <g transform="translate(54,0)">
+        <circle cx="0" cy="0" r="26" fill="#0e1a2c" stroke="#38a3ff" stroke-opacity="1"/>
+        <rect x="-11" y="-11" width="10" height="10" fill="#38a3ff"/>
+        <rect x="2" y="-11" width="10" height="10" fill="#38a3ff"/>
+        <rect x="-11" y="2" width="10" height="10" fill="#38a3ff"/>
+        <rect x="2" y="2" width="10" height="10" fill="#38a3ff"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- safety: right art never crosses x=960; left text anchored at x=80 -->
+</svg>
+
+
