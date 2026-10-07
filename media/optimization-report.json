@@ -1,0 +1,839 @@
+{
+  "startedAt": "2026-10-03T07:51:59+00:00",
+  "limitBytes": 1000000000,
+  "compressOverBytes": 100000000,
+  "crf": 20,
+  "deleted": [
+    {
+      "path": "videos/VID_20251021_191323.mp4",
+      "bytes": 1120528767,
+      "sha256": "116f86577e5c04da196b41dcd1d4ac055b8a6a6de3c0883fd5b293b572a4119d"
+    },
+    {
+      "path": "videos/imported/2025-07-22 20-53-30.mp4",
+      "bytes": 2124664374,
+      "sha256": "f1849700a33ebdf511e67faccb1fd62b5296558b4adb5b4d7b8d07750f59513a"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/desk init.mp4",
+      "bytes": 2513916318,
+      "sha256": "1a96ad01e4b4e0f9cd082366691694baabacb11af1cecef596dcf2f989a8858e"
+    },
+    {
+      "path": "videos/imported/military meuseum/GH010647.MP4",
+      "bytes": 4002883375,
+      "sha256": "a759d1c50bcb2982fbed52e15a5a2616a177eb39cb2df04fb0a7bf14d2151d73"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/s26/20260910_152017.mp4",
+      "bytes": 11663132889,
+      "sha256": "c1eaa0b3a944508bc67486ac1c71ca0f3fc5ad383f35e6b85aaad30efcdea98e"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/s26/20260910_152209.mp4",
+      "bytes": 2078991622,
+      "sha256": "9f10703bcc9248997aafa7ba9b37b760839a3590f73df90f7682ecdcf39a7912"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/s26/20260912_224759.mp4",
+      "bytes": 2341172848,
+      "sha256": "530c42be1782ea82b92ad8c8f04162ee3cd356ef38aaf7dafe64cd230ab4dee2"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/s26/20260912_230956.mp4",
+      "bytes": 7860738751,
+      "sha256": "8d0dd2fb636727baf9ca0c1217423f4789f6375e1b792170715f9d0bbc986e71"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/s26/20260912_231100.mp4",
+      "bytes": 8130160406,
+      "sha256": "caaaf7938df74fc2ead6c6a51a6709152bd40d364b70cebf3f0cb7423069bcb4"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/s26/20260912_231205.mp4",
+      "bytes": 3178593486,
+      "sha256": "7f94fe178af4af553fc759267baff17782ef315afad214247a2cd22146621654"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/s26/20260912_231251.mp4",
+      "bytes": 11070112041,
+      "sha256": "02d59c77c816290f9291e8166886fac8efdea98a40560cc2c76ffd8617d55c56"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/s26/20260912_231347.mp4",
+      "bytes": 8603586960,
+      "sha256": "1a56b470126ddb7b6c90c061c2658a71ab20563777a8d0a7d2a3c088a43410be"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/s26/20260912_231431.mp4",
+      "bytes": 7471583800,
+      "sha256": "ecadc3273a2dacf4fdf51e064f8655f9b6f8247312ae968386c41d4bb37386c7"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/s26/20260912_231504.mp4",
+      "bytes": 13750686541,
+      "sha256": "c072c9ca44aeaa88c395f3d429653951010197f16051fda755cb6f6a83d195b4"
+    },
+    {
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240524_164032.mp4",
+      "bytes": 1801525708,
+      "sha256": "d0d26d6ba9ed10f53b6afbf001d333553d9017a8bb3bce1b2192096edb53d596"
+    }
+  ],
+  "retainedCopies": [
+    {
+      "original": "videos/imported/Inaya Mahanoor/s26/20260910_152017.mp4",
+      "retained": "videos/retained/20260910_152017--c1eaa0b3a944.mp4",
+      "bytes": 4165480
+    },
+    {
+      "original": "videos/imported/Inaya Mahanoor/s26/20260910_152209.mp4",
+      "retained": "videos/retained/20260910_152209--9f10703bcc92.mp4",
+      "bytes": 2160503
+    },
+    {
+      "original": "videos/imported/Inaya Mahanoor/s26/20260912_224759.mp4",
+      "retained": "videos/retained/20260912_224759--530c42be1782.mp4",
+      "bytes": 1685452
+    },
+    {
+      "original": "videos/imported/Inaya Mahanoor/s26/20260912_230956.mp4",
+      "retained": "videos/retained/20260912_230956--8d0dd2fb6367.mp4",
+      "bytes": 4204864
+    },
+    {
+      "original": "videos/imported/Inaya Mahanoor/s26/20260912_231100.mp4",
+      "retained": "videos/retained/20260912_231100--caaaf7938df7.mp4",
+      "bytes": 3331424
+    },
+    {
+      "original": "videos/imported/Inaya Mahanoor/s26/20260912_231205.mp4",
+      "retained": "videos/retained/20260912_231205--7f94fe178af4.mp4",
+      "bytes": 1860133
+    },
+    {
+      "original": "videos/imported/Inaya Mahanoor/s26/20260912_231251.mp4",
+      "retained": "videos/retained/20260912_231251--02d59c77c816.mp4",
+      "bytes": 2278652
+    },
+    {
+      "original": "videos/imported/Inaya Mahanoor/s26/20260912_231347.mp4",
+      "retained": "videos/retained/20260912_231347--1a56b470126d.mp4",
+      "bytes": 2005630
+    },
+    {
+      "original": "videos/imported/Inaya Mahanoor/s26/20260912_231431.mp4",
+      "retained": "videos/retained/20260912_231431--ecadc3273a2d.mp4",
+      "bytes": 1653647
+    },
+    {
+      "original": "videos/imported/Inaya Mahanoor/s26/20260912_231504.mp4",
+      "retained": "videos/retained/20260912_231504--c072c9ca44ae.mp4",
+      "bytes": 3723137
+    },
+    {
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240524_164032.mp4",
+      "retained": "videos/retained/VID_20240524_164032--d0d26d6ba9ed.mp4",
+      "bytes": 31688345
+    }
+  ],
+  "compressed": [
+    {
+      "status": "compressed",
+      "id": "0fe0bc58a91151f3af333139",
+      "original": "videos/imported/NVIDIA/OBS_2026-09-21_04-07-08.mov",
+      "path": "videos/imported/NVIDIA/OBS_2026-09-21_04-07-08--crf20.mp4",
+      "beforeBytes": 132339664,
+      "afterBytes": 12198353,
+      "crf": 20
+    },
+    {
+      "status": "compressed",
+      "id": "88c0d450de7517fc4bd26d5e",
+      "original": "videos/imported/NVIDIA/OBS_2026-09-21_03-54-56.mov",
+      "path": "videos/imported/NVIDIA/OBS_2026-09-21_03-54-56--crf20.mp4",
+      "beforeBytes": 663917446,
+      "afterBytes": 36428020,
+      "crf": 20
+    },
+    {
+      "status": "compressed",
+      "id": "5916d458ce81351803e2bd40",
+      "original": "videos/imported/NVIDIA/OBS_2026-09-21_04-07-52.mov",
+      "path": "videos/imported/NVIDIA/OBS_2026-09-21_04-07-52--crf20.mp4",
+      "beforeBytes": 759428160,
+      "afterBytes": 53403173,
+      "crf": 20
+    },
+    {
+      "status": "compressed",
+      "id": "ed4ca58dd929bb013587de04",
+      "original": "videos/imported/Inaya Mahanoor/s26/20260912_231613.mp4",
+      "path": "videos/imported/Inaya Mahanoor/s26/20260912_231613.mp4",
+      "beforeBytes": 157773100,
+      "afterBytes": 141225596,
+      "crf": 20
+    },
+    {
+      "status": "compressed",
+      "id": "7fb5feb79a55370ffb4b1d7f",
+      "original": "videos/imported/NVIDIA/Desktop/Desktop 2026.08.31 - 00.53.37.02.mp4",
+      "path": "videos/imported/NVIDIA/Desktop/Desktop 2026.08.31 - 00.53.37.02.mp4",
+      "beforeBytes": 133286048,
+      "afterBytes": 33942265,
+      "crf": 20
+    },
+    {
+      "status": "compressed",
+      "id": "708390db9bf6a1f465d395b8",
+      "original": "videos/imported/military meuseum/GX010656.MP4",
+      "path": "videos/imported/military meuseum/GX010656.MP4",
+      "beforeBytes": 203373582,
+      "afterBytes": 120983622,
+      "crf": 20
+    },
+    {
+      "status": "compressed",
+      "id": "8fce5d11afe3b2d48e25debb",
+      "original": "videos/imported/military meuseum/GH010688.MP4",
+      "path": "videos/imported/military meuseum/GH010688.MP4",
+      "beforeBytes": 125203239,
+      "afterBytes": 109412782,
+      "crf": 20
+    },
+    {
+      "status": "compressed",
+      "id": "f26dafc61f5177a11e0df291",
+      "original": "videos/imported/military meuseum/GH010687.MP4",
+      "path": "videos/imported/military meuseum/GH010687.MP4",
+      "beforeBytes": 160800118,
+      "afterBytes": 127809381,
+      "crf": 20
+    },
+    {
+      "status": "compressed",
+      "id": "2a6d9e068175ade96e7c02f8",
+      "original": "videos/imported/Inaya Mahanoor/s26/20260910_180035.mp4",
+      "path": "videos/imported/Inaya Mahanoor/s26/20260910_180035.mp4",
+      "beforeBytes": 806750020,
+      "afterBytes": 612296753,
+      "crf": 20
+    },
+    {
+      "status": "compressed",
+      "id": "e7234b5976e400cc03c9b876",
+      "original": "videos/imported/military meuseum/GH010675.MP4",
+      "path": "videos/imported/military meuseum/GH010675.MP4",
+      "beforeBytes": 114508203,
+      "afterBytes": 101688481,
+      "crf": 20
+    },
+    {
+      "status": "compressed",
+      "id": "6a6f71cb9b82da5551aa9b6b",
+      "original": "videos/imported/military meuseum/GH010674.MP4",
+      "path": "videos/imported/military meuseum/GH010674.MP4",
+      "beforeBytes": 160496573,
+      "afterBytes": 145695416,
+      "crf": 20
+    },
+    {
+      "status": "compressed",
+      "id": "6295fecc5759afc417fa037c",
+      "original": "videos/imported/military meuseum/GH010662.MP4",
+      "path": "videos/imported/military meuseum/GH010662.MP4",
+      "beforeBytes": 202618330,
+      "afterBytes": 175891709,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "cdcd67360163fb4c355ba5a7",
+      "original": "videos/imported/military meuseum/GH010659.MP4",
+      "path": "videos/imported/military meuseum/GH010659.MP4",
+      "beforeBytes": 153810990,
+      "afterBytes": 40555849,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "e19628b24f9d19db666e209e",
+      "original": "videos/imported/military meuseum/GH010658.MP4",
+      "path": "videos/imported/military meuseum/GH010658.MP4",
+      "beforeBytes": 173956013,
+      "afterBytes": 46745471,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "6141c9604a04b73990b69ef7",
+      "original": "videos/imported/military meuseum/GH010657.MP4",
+      "path": "videos/imported/military meuseum/GH010657.MP4",
+      "beforeBytes": 188779490,
+      "afterBytes": 55038727,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "3c3b3fa34292b45912540d0e",
+      "original": "videos/imported/Inaya Mahanoor/s26/20260910_180358.mp4",
+      "path": "videos/imported/Inaya Mahanoor/s26/20260910_180358.mp4",
+      "beforeBytes": 397786600,
+      "afterBytes": 157066232,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "6854f6de8adb9c361e6c7af3",
+      "original": "videos/imported/military meuseum/GH010646.MP4",
+      "path": "videos/imported/military meuseum/GH010646.MP4",
+      "beforeBytes": 103969749,
+      "afterBytes": 75668928,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "1bb6edfcbd216e438cedf3c0",
+      "original": "videos/imported/inaya prom dress/202602__/IMG_5153.MOV",
+      "path": "videos/imported/inaya prom dress/202602__/IMG_5153--crf20.mp4",
+      "beforeBytes": 111926113,
+      "afterBytes": 31350973,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "d80789a5092f69322f9390e5",
+      "original": "videos/imported/military meuseum/GH010643.MP4",
+      "path": "videos/imported/military meuseum/GH010643.MP4",
+      "beforeBytes": 134526341,
+      "afterBytes": 131133179,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "69f8548629c114294a360b4d",
+      "original": "videos/imported/inaya prom dress/202602__/IMG_5146.MOV",
+      "path": "videos/imported/inaya prom dress/202602__/IMG_5146--crf20.mp4",
+      "beforeBytes": 104865105,
+      "afterBytes": 10822304,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "fbeb91f249422a71119d0cb6",
+      "original": "videos/imported/Inaya Mahanoor/room e tripod diye kora/VID_20251113_005022.mp4",
+      "path": "videos/imported/Inaya Mahanoor/room e tripod diye kora/VID_20251113_005022.mp4",
+      "beforeBytes": 163727571,
+      "afterBytes": 24361270,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "ce1b83b27f02328d2d91402e",
+      "original": "videos/imported/military meuseum/GH010648.MP4",
+      "path": "videos/imported/military meuseum/GH010648.MP4",
+      "beforeBytes": 295090927,
+      "afterBytes": 237002689,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "d0eeb78b6975600af77bf2b8",
+      "original": "videos/imported/Inaya Mahanoor/room e tripod diye kora/VID_20251113_004657.mp4",
+      "path": "videos/imported/Inaya Mahanoor/room e tripod diye kora/VID_20251113_004657.mp4",
+      "beforeBytes": 186529132,
+      "afterBytes": 32114243,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "7bdd45b1e3037b021b7ac0fb",
+      "original": "videos/imported/Inaya Mahanoor/room e tripod diye kora/VID_20251113_004051.mp4",
+      "path": "videos/imported/Inaya Mahanoor/room e tripod diye kora/VID_20251113_004051.mp4",
+      "beforeBytes": 242415608,
+      "afterBytes": 62346278,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "62c25682c538e9c6d4a827e6",
+      "original": "videos/imported/Inaya Mahanoor/room e tripod diye kora/VID_20251113_003840.mp4",
+      "path": "videos/imported/Inaya Mahanoor/room e tripod diye kora/VID_20251113_003840.mp4",
+      "beforeBytes": 277956057,
+      "afterBytes": 65152134,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "876cdfc78cadbe27a4362ce7",
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20251024_193038.mp4",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20251024_193038.mp4",
+      "beforeBytes": 161428304,
+      "afterBytes": 127167410,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "6abb827f4392cb6eb00d0bf0",
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20251024_193216.mp4",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20251024_193216.mp4",
+      "beforeBytes": 257070812,
+      "afterBytes": 178202288,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "4ca95eed6719ab1a3d4c2834",
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20251022_005704.mp4",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20251022_005704.mp4",
+      "beforeBytes": 195321678,
+      "afterBytes": 28220994,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "d3808169408a9170bbd867cc",
+      "original": "videos/imported/Inaya Mahanoor/room e tripod diye kora/VID_20251113_003404.mp4",
+      "path": "videos/imported/Inaya Mahanoor/room e tripod diye kora/VID_20251113_003404.mp4",
+      "beforeBytes": 518012060,
+      "afterBytes": 143948836,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "280a21a3e78a83a113796bbc",
+      "original": "videos/imported/Inaya Mahanoor/VID_20251015_102228.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20251015_102228.mp4",
+      "beforeBytes": 104830119,
+      "afterBytes": 28262868,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "bd402b1889b03fa5f5994fbe",
+      "original": "videos/imported/Inaya Mahanoor/VID_20251015_102439.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20251015_102439.mp4",
+      "beforeBytes": 167060474,
+      "afterBytes": 54857622,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "ef888de3c49f4610d65e0203",
+      "original": "videos/imported/Inaya Mahanoor/VID_20251015_102143.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20251015_102143.mp4",
+      "beforeBytes": 102196192,
+      "afterBytes": 38003419,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "0745698f9f5bbbabf29ff204",
+      "original": "videos/imported/Inaya Mahanoor/VID_20251010_071353.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20251010_071353.mp4",
+      "beforeBytes": 306795135,
+      "afterBytes": 101541777,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "31b1184d65082d587f207584",
+      "original": "videos/imported/Inaya Mahanoor/VID_20251010_111034.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20251010_111034.mp4",
+      "beforeBytes": 553638843,
+      "afterBytes": 139047418,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "ff11b993e01c6dfb85e0babc",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250907_174809.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250907_174809.mp4",
+      "beforeBytes": 595814367,
+      "afterBytes": 181996970,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "e5981d0b39ef54579b190a01",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250830_092626.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250830_092626.mp4",
+      "beforeBytes": 133580655,
+      "afterBytes": 69110058,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "d3a6d784d4d8543dfc99c1eb",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250830_092347.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250830_092347.mp4",
+      "beforeBytes": 273264634,
+      "afterBytes": 159075418,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "4b27b05aefd93f2934f1b32a",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250907_173411.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250907_173411.mp4",
+      "beforeBytes": 705770510,
+      "afterBytes": 214238204,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "fe20b31d4e994f3eb0a82ac2",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250907_172951.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250907_172951.mp4",
+      "beforeBytes": 580638608,
+      "afterBytes": 163662814,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "2138950faf8b996556921aee",
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20250810_001230.mp4",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20250810_001230.mp4",
+      "beforeBytes": 104081298,
+      "afterBytes": 82608439,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "c26fb5278e928ba661729d9f",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250827_160938.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250827_160938.mp4",
+      "beforeBytes": 205092160,
+      "afterBytes": 107022693,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "60fd6f1de05aec3ca3887b5b",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250810_221525.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250810_221525.mp4",
+      "beforeBytes": 121916068,
+      "afterBytes": 54820355,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "85c84391a2ee16f467f4a0b2",
+      "original": "videos/imported/Inaya Mahanoor/from desktop/mockintro.mp4",
+      "path": "videos/imported/Inaya Mahanoor/from desktop/mockintro.mp4",
+      "beforeBytes": 117771853,
+      "afterBytes": 9894527,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "ce8b31792fe47da6df587a71",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250827_160118.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250827_160118.mp4",
+      "beforeBytes": 336497957,
+      "afterBytes": 164359794,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "aa5f3186ee53e53002472b5f",
+      "original": "videos/imported/2025-07-10 22-42-25.mp4",
+      "path": "videos/imported/2025-07-10 22-42-25.mp4",
+      "beforeBytes": 134524161,
+      "afterBytes": 74439170,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "d694a45a0866c0524e9b4f77",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250701_104916.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250701_104916.mp4",
+      "beforeBytes": 229426738,
+      "afterBytes": 67602525,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "937434deb84891e5c840b508",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250615_123005.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250615_123005.mp4",
+      "beforeBytes": 323015690,
+      "afterBytes": 85212168,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "d0433cfe7a179d879b650b83",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250524_091319.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250524_091319.mp4",
+      "beforeBytes": 147248273,
+      "afterBytes": 68625910,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "948c04f71604a78725c08d5c",
+      "original": "videos/imported/Inaya Mahanoor/VID_20250606_132122.mp4",
+      "path": "videos/imported/Inaya Mahanoor/VID_20250606_132122.mp4",
+      "beforeBytes": 382839047,
+      "afterBytes": 179114730,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "3ff6446dc24a17db92827c91",
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20250117_140849.mp4",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20250117_140849.mp4",
+      "beforeBytes": 129284590,
+      "afterBytes": 104651356,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "6dd015fb4a83b43b4b93b8b8",
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240524_163505.mp4",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240524_163505.mp4",
+      "beforeBytes": 108465424,
+      "afterBytes": 23545603,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "6777fb1f82408c0a8aad2a41",
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240524_163930.mp4",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240524_163930.mp4",
+      "beforeBytes": 119644858,
+      "afterBytes": 76182235,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "78bb24ce9647460cd6f0e913",
+      "original": "videos/imported/2025-07-13 18-03-38.mp4",
+      "path": "videos/imported/2025-07-13 18-03-38.mp4",
+      "beforeBytes": 538352471,
+      "afterBytes": 308815833,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "e4f387da3ea2ba906e3fe24c",
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240210_121138.mp4",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240210_121138.mp4",
+      "beforeBytes": 115453009,
+      "afterBytes": 58688952,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "015b39d7fad345f903f48a59",
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231101_131843.mp4",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231101_131843.mp4",
+      "beforeBytes": 147933867,
+      "afterBytes": 87433697,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "a5d000920c0b84365c032043",
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231031_190050.mp4",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231031_190050.mp4",
+      "beforeBytes": 144758087,
+      "afterBytes": 106091914,
+      "crf": 20,
+      "preset": "veryfast"
+    },
+    {
+      "status": "compressed",
+      "id": "62fad926b1c5f8feecbcb65f",
+      "original": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231030_122446.mp4",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231030_122446.mp4",
+      "beforeBytes": 163950005,
+      "afterBytes": 60878809,
+      "crf": 20,
+      "preset": "veryfast"
+    }
+  ],
+  "keptUnchanged": [
+    {
+      "status": "unchanged",
+      "id": "73776bd33ddfa7e8840d6212",
+      "path": "videos/imported/military meuseum/GH020647.MP4",
+      "bytes": 193524042,
+      "reason": "CRF output was not smaller"
+    },
+    {
+      "status": "unchanged",
+      "id": "3f8f0efe6a9fb7e7406a0d74",
+      "path": "videos/imported/military meuseum/GH010690.MP4",
+      "bytes": 172098563,
+      "reason": "CRF output was not smaller"
+    },
+    {
+      "status": "unchanged",
+      "id": "81f070991f36c7e19c3c0034",
+      "path": "videos/imported/military meuseum/GH010686.MP4",
+      "bytes": 137236758,
+      "reason": "CRF output was not smaller"
+    },
+    {
+      "status": "unchanged",
+      "id": "f63ab8e7efbf408c68c2ca05",
+      "path": "videos/imported/military meuseum/GH010684.MP4",
+      "bytes": 276806621,
+      "reason": "CRF output was not smaller"
+    },
+    {
+      "status": "unchanged",
+      "id": "f53a879095ed9c4ccd13129f",
+      "path": "videos/imported/military meuseum/GH010669.MP4",
+      "bytes": 118209013,
+      "crf": 20,
+      "preset": "veryfast",
+      "reason": "CRF output was not smaller"
+    },
+    {
+      "status": "unchanged",
+      "id": "2951ae02c4dc147d2bbd1ccc",
+      "path": "videos/imported/military meuseum/GH010661.MP4",
+      "bytes": 119751428,
+      "crf": 20,
+      "preset": "veryfast",
+      "reason": "CRF output was not smaller"
+    },
+    {
+      "status": "unchanged",
+      "id": "b960a670b4b6cd6e795e3f2f",
+      "path": "videos/imported/military meuseum/GH010683.MP4",
+      "bytes": 415848488,
+      "crf": 20,
+      "preset": "veryfast",
+      "reason": "CRF output was not smaller"
+    },
+    {
+      "status": "unchanged",
+      "id": "6ed9073eaf642d203a97b366",
+      "path": "videos/imported/military meuseum/GH010651.MP4",
+      "bytes": 240265068,
+      "crf": 20,
+      "preset": "veryfast",
+      "reason": "CRF output was not smaller"
+    },
+    {
+      "status": "unchanged",
+      "id": "dee1bfe45763ea2c3c6c81b7",
+      "path": "videos/imported/military meuseum/GH010649.MP4",
+      "bytes": 155969799,
+      "crf": 20,
+      "preset": "veryfast",
+      "reason": "CRF output was not smaller"
+    },
+    {
+      "status": "unchanged",
+      "id": "4c09ec10a5829b71e1fe4b06",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240524_180831.mp4",
+      "bytes": 109314874,
+      "crf": 20,
+      "preset": "veryfast",
+      "reason": "CRF output was not smaller"
+    },
+    {
+      "status": "unchanged",
+      "id": "6955fa47a6cef78bf76d8f18",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231221_111411.mp4",
+      "bytes": 114695822,
+      "crf": 20,
+      "preset": "veryfast",
+      "reason": "CRF output was not smaller"
+    },
+    {
+      "status": "unchanged",
+      "id": "f023bfb0c7086005315a60e2",
+      "path": "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231223_064040.mp4",
+      "bytes": 140067995,
+      "crf": 20,
+      "preset": "veryfast",
+      "reason": "CRF output was not smaller"
+    }
+  ],
+  "failures": [],
+  "finishedAt": "2026-10-03T14:54:40+00:00",
+  "summary": {
+    "deletedOver1GB": 15,
+    "retainedSmallerCopies": 11,
+    "compressed": 57,
+    "keptUnchanged": 12,
+    "failures": 0,
+    "libraryItems": 502,
+    "deletedBytes": 87712277886,
+    "compressionSavedBytes": 8393853492
+  },
+  "orientationRepairs": [
+    "videos/imported/Inaya Mahanoor/s26/20260912_231613.mp4",
+    "videos/imported/military meuseum/GH010674.MP4",
+    "videos/imported/military meuseum/GH010659.MP4",
+    "videos/imported/military meuseum/GH010658.MP4",
+    "videos/imported/Inaya Mahanoor/s26/20260910_180358.mp4",
+    "videos/imported/inaya prom dress/202602__/IMG_5146--crf20.mp4",
+    "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20251022_005704.mp4",
+    "videos/imported/Inaya Mahanoor/VID_20251010_071353.mp4",
+    "videos/imported/Inaya Mahanoor/VID_20250830_092626.mp4",
+    "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20250810_001230.mp4",
+    "videos/imported/Inaya Mahanoor/VID_20250827_160938.mp4",
+    "videos/imported/Inaya Mahanoor/VID_20250810_221525.mp4",
+    "videos/imported/Inaya Mahanoor/VID_20250827_160118.mp4",
+    "videos/imported/Inaya Mahanoor/VID_20250701_104916.mp4",
+    "videos/imported/Inaya Mahanoor/VID_20250615_123005.mp4",
+    "videos/imported/Inaya Mahanoor/VID_20250524_091319.mp4",
+    "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20250117_140849.mp4",
+    "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240524_163505.mp4",
+    "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240524_163930.mp4",
+    "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240210_121138.mp4",
+    "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231101_131843.mp4",
+    "videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231030_122446.mp4"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-04T09:09:24+00:00",
+  "memories": 502,
+  "photos": 152,
+  "videos": 350,
+  "albums": 10,
+  "hashedFiles": 502,
+  "servedFiles": 1165,
+  "originalCollectionCoverage": {
+    "unchanged": 434,
+    "replaced": 68,
+    "deletedOver1GB": 4
+  },
+  "allPhotosUnchanged": true,
+  "filesOver1GB": [],
+  "errors": []
+}

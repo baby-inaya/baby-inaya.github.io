@@ -1,0 +1,358 @@
+{
+  "checkedAt": "2026-10-03T20:02:52+00:00",
+  "removed": [
+    {
+      "path": "media/playback/02d59c77c816290f9291e816.mp4",
+      "bytes": 2278652
+    },
+    {
+      "path": "media/playback/0fe0bc58a91151f3af333139.mp4",
+      "bytes": 115942834
+    },
+    {
+      "path": "media/playback/1a56b470126ddb7b6c90c061.mp4",
+      "bytes": 2005630
+    },
+    {
+      "path": "media/playback/1bb6edfcbd216e438cedf3c0.mp4",
+      "bytes": 103764769
+    },
+    {
+      "path": "media/playback/2138950faf8b996556921aee.mp4",
+      "bytes": 12739156
+    },
+    {
+      "path": "media/playback/2a6d9e068175ade96e7c02f8.mp4",
+      "bytes": 28257430
+    },
+    {
+      "path": "media/playback/3c3b3fa34292b45912540d0e.mp4",
+      "bytes": 3133241
+    },
+    {
+      "path": "media/playback/3ff6446dc24a17db92827c91.mp4",
+      "bytes": 21622152
+    },
+    {
+      "path": "media/playback/4ca95eed6719ab1a3d4c2834.mp4",
+      "bytes": 6362869
+    },
+    {
+      "path": "media/playback/530c42be1782ea82b92ad8c8.mp4",
+      "bytes": 1685452
+    },
+    {
+      "path": "media/playback/5916d458ce81351803e2bd40.mp4",
+      "bytes": 582183257
+    },
+    {
+      "path": "media/playback/6777fb1f82408c0a8aad2a41.mp4",
+      "bytes": 11667151
+    },
+    {
+      "path": "media/playback/69f8548629c114294a360b4d.mp4",
+      "bytes": 98429864
+    },
+    {
+      "path": "media/playback/6abb827f4392cb6eb00d0bf0.mp4",
+      "bytes": 40764856
+    },
+    {
+      "path": "media/playback/6dd015fb4a83b43b4b93b8b8.mp4",
+      "bytes": 5155396
+    },
+    {
+      "path": "media/playback/708390db9bf6a1f465d395b8.mp4",
+      "bytes": 2504381
+    },
+    {
+      "path": "media/playback/7f94fe178af4af553fc75926.mp4",
+      "bytes": 1860133
+    },
+    {
+      "path": "media/playback/7fb5feb79a55370ffb4b1d7f.mp4",
+      "bytes": 1655379
+    },
+    {
+      "path": "media/playback/876cdfc78cadbe27a4362ce7.mp4",
+      "bytes": 28776223
+    },
+    {
+      "path": "media/playback/88c0d450de7517fc4bd26d5e.mp4",
+      "bytes": 494171865
+    },
+    {
+      "path": "media/playback/8d0dd2fb636727baf9ca0c12.mp4",
+      "bytes": 4204864
+    },
+    {
+      "path": "media/playback/9f10703bcc9248997aafa7ba.mp4",
+      "bytes": 2160503
+    },
+    {
+      "path": "media/playback/c072c9ca44aeaa88c395f3d4.mp4",
+      "bytes": 3723137
+    },
+    {
+      "path": "media/playback/c1eaa0b3a944508bc67486ac.mp4",
+      "bytes": 4165480
+    },
+    {
+      "path": "media/playback/caaaf7938df74fc2ead6c6a5.mp4",
+      "bytes": 3331424
+    },
+    {
+      "path": "media/playback/d0d26d6ba9ed10f53b6afbf0.mp4",
+      "bytes": 31688345
+    },
+    {
+      "path": "media/playback/e4f387da3ea2ba906e3fe24c.mp4",
+      "bytes": 15688038
+    },
+    {
+      "path": "media/playback/ecadc3273a2dacf4fdf51e06.mp4",
+      "bytes": 1653647
+    },
+    {
+      "path": "media/playback/ed4ca58dd929bb013587de04.mp4",
+      "bytes": 16868718
+    },
+    {
+      "path": "thumbnails/116f86577e5c04da196b41dc.jpg",
+      "bytes": 54027
+    },
+    {
+      "path": "thumbnails/1a96ad01e4b4e0f9cd082366.jpg",
+      "bytes": 20978
+    },
+    {
+      "path": "thumbnails/a759d1c50bcb2982fbed52e1.jpg",
+      "bytes": 34689
+    },
+    {
+      "path": "thumbnails/f1849700a33ebdf511e67fac.jpg",
+      "bytes": 37096
+    },
+    {
+      "path": "media/encoding/015b39d7fad345f903f48a59.progress",
+      "bytes": 16372
+    },
+    {
+      "path": "media/encoding/0745698f9f5bbbabf29ff204.progress",
+      "bytes": 38727
+    },
+    {
+      "path": "media/encoding/1bb6edfcbd216e438cedf3c0.progress",
+      "bytes": 11820
+    },
+    {
+      "path": "media/encoding/2138950faf8b996556921aee.progress",
+      "bytes": 14295
+    },
+    {
+      "path": "media/encoding/280a21a3e78a83a113796bbc.progress",
+      "bytes": 9567
+    },
+    {
+      "path": "media/encoding/2951ae02c4dc147d2bbd1ccc.progress",
+      "bytes": 12292
+    },
+    {
+      "path": "media/encoding/31b1184d65082d587f207584.progress",
+      "bytes": 60653
+    },
+    {
+      "path": "media/encoding/3c3b3fa34292b45912540d0e.progress",
+      "bytes": 120347
+    },
+    {
+      "path": "media/encoding/3ff6446dc24a17db92827c91.progress",
+      "bytes": 21842
+    },
+    {
+      "path": "media/encoding/4b27b05aefd93f2934f1b32a.progress",
+      "bytes": 85356
+    },
+    {
+      "path": "media/encoding/4c09ec10a5829b71e1fe4b06.progress",
+      "bytes": 22640
+    },
+    {
+      "path": "media/encoding/4ca95eed6719ab1a3d4c2834.progress",
+      "bytes": 12859
+    },
+    {
+      "path": "media/encoding/60fd6f1de05aec3ca3887b5b.progress",
+      "bytes": 13013
+    },
+    {
+      "path": "media/encoding/6141c9604a04b73990b69ef7.progress",
+      "bytes": 27777
+    },
+    {
+      "path": "media/encoding/6295fecc5759afc417fa037c.progress",
+      "bytes": 27064
+    },
+    {
+      "path": "media/encoding/62c25682c538e9c6d4a827e6.progress",
+      "bytes": 24935
+    },
+    {
+      "path": "media/encoding/62fad926b1c5f8feecbcb65f.progress",
+      "bytes": 14888
+    },
+    {
+      "path": "media/encoding/6777fb1f82408c0a8aad2a41.progress",
+      "bytes": 14747
+    },
+    {
+      "path": "media/encoding/6854f6de8adb9c361e6c7af3.progress",
+      "bytes": 13786
+    },
+    {
+      "path": "media/encoding/6955fa47a6cef78bf76d8f18.progress",
+      "bytes": 7571
+    },
+    {
+      "path": "media/encoding/69f8548629c114294a360b4d.progress",
+      "bytes": 11659
+    },
+    {
+      "path": "media/encoding/6abb827f4392cb6eb00d0bf0.progress",
+      "bytes": 34550
+    },
+    {
+      "path": "media/encoding/6dd015fb4a83b43b4b93b8b8.progress",
+      "bytes": 8576
+    },
+    {
+      "path": "media/encoding/6ed9073eaf642d203a97b366.progress",
+      "bytes": 37605
+    },
+    {
+      "path": "media/encoding/78bb24ce9647460cd6f0e913.progress",
+      "bytes": 131446
+    },
+    {
+      "path": "media/encoding/7bdd45b1e3037b021b7ac0fb.progress",
+      "bytes": 21865
+    },
+    {
+      "path": "media/encoding/85c84391a2ee16f467f4a0b2.progress",
+      "bytes": 4245
+    },
+    {
+      "path": "media/encoding/876cdfc78cadbe27a4362ce7.progress",
+      "bytes": 18667
+    },
+    {
+      "path": "media/encoding/937434deb84891e5c840b508.progress",
+      "bytes": 40160
+    },
+    {
+      "path": "media/encoding/948c04f71604a78725c08d5c.progress",
+      "bytes": 49127
+    },
+    {
+      "path": "media/encoding/a5d000920c0b84365c032043.progress",
+      "bytes": 12271
+    },
+    {
+      "path": "media/encoding/aa5f3186ee53e53002472b5f.progress",
+      "bytes": 35499
+    },
+    {
+      "path": "media/encoding/b960a670b4b6cd6e795e3f2f.progress",
+      "bytes": 74744
+    },
+    {
+      "path": "media/encoding/bd402b1889b03fa5f5994fbe.progress",
+      "bytes": 19187
+    },
+    {
+      "path": "media/encoding/c26fb5278e928ba661729d9f.progress",
+      "bytes": 26057
+    },
+    {
+      "path": "media/encoding/cdcd67360163fb4c355ba5a7.progress",
+      "bytes": 20371
+    },
+    {
+      "path": "media/encoding/ce1b83b27f02328d2d91402e.progress",
+      "bytes": 42849
+    },
+    {
+      "path": "media/encoding/ce8b31792fe47da6df587a71.progress",
+      "bytes": 46466
+    },
+    {
+      "path": "media/encoding/d0433cfe7a179d879b650b83.progress",
+      "bytes": 16115
+    },
+    {
+      "path": "media/encoding/d0eeb78b6975600af77bf2b8.progress",
+      "bytes": 12817
+    },
+    {
+      "path": "media/encoding/d3808169408a9170bbd867cc.progress",
+      "bytes": 52803
+    },
+    {
+      "path": "media/encoding/d3a6d784d4d8543dfc99c1eb.progress",
+      "bytes": 31715
+    },
+    {
+      "path": "media/encoding/d694a45a0866c0524e9b4f77.progress",
+      "bytes": 26133
+    },
+    {
+      "path": "media/encoding/d80789a5092f69322f9390e5.progress",
+      "bytes": 17155
+    },
+    {
+      "path": "media/encoding/dee1bfe45763ea2c3c6c81b7.progress",
+      "bytes": 21907
+    },
+    {
+      "path": "media/encoding/e19628b24f9d19db666e209e.progress",
+      "bytes": 20698
+    },
+    {
+      "path": "media/encoding/e4f387da3ea2ba906e3fe24c.progress",
+      "bytes": 20800
+    },
+    {
+      "path": "media/encoding/e5981d0b39ef54579b190a01.progress",
+      "bytes": 16124
+    },
+    {
+      "path": "media/encoding/ef888de3c49f4610d65e0203.progress",
+      "bytes": 10746
+    },
+    {
+      "path": "media/encoding/f023bfb0c7086005315a60e2.progress",
+      "bytes": 15404
+    },
+    {
+      "path": "media/encoding/f53a879095ed9c4ccd13129f.progress",
+      "bytes": 14843
+    },
+    {
+      "path": "media/encoding/fbeb91f249422a71119d0cb6.progress",
+      "bytes": 10624
+    },
+    {
+      "path": "media/encoding/fe20b31d4e994f3eb0a82ac2.progress",
+      "bytes": 65631
+    },
+    {
+      "path": "media/encoding/ff11b993e01c6dfb85e0babc.progress",
+      "bytes": 71779
+    },
+    {
+      "path": "media/encoding/rotation-check.mp4",
+      "bytes": 145695416
+    }
+  ],
+  "bytes": 1795918241
+}
