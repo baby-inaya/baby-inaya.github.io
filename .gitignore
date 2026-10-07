@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+media/import-progress.log
+media/playback-progress.log
+media/optimization-progress.log
+media/optimization-errors.log
+.compression.pid
+media/encoding/
+.preview-*.log
+.preview.pid
+qa-output/
+lage_files/

@@ -1,143 +1,132 @@
-# 👶 Inaya Mahnoor - Baby Portfolio
+# Inaya Mahnoor's memory book
 
-A beautiful, responsive static website to showcase precious photos and videos of baby Inaya Mahnoor. Built with pure HTML, CSS, and JavaScript for fast loading and easy maintenance.
+A family scrapbook built with plain HTML, CSS, and JavaScript. The cream paper, berry accents, photograph cover, and monthly gallery adapt to phones, tablets, and desktops.
 
-## ✨ Features
+## Browse the collection
 
-- **🎨 Beautiful Pink Theme** - Perfect for a baby girl
-- **📱 Fully Responsive** - Looks great on mobile, tablet, and desktop
-- **🖼️ Dynamic Gallery** - Automatically displays all images and videos from folders
-- **🎥 Full-Screen Modal** - Click any media to view in full screen
-- **⬅️➡️ Navigation** - Arrow keys, swipe gestures, and thumbnail navigation
-- **⚡ Fast Loading** - Optimized for performance with lazy loading
-- **🎯 Touch-Friendly** - Swipe gestures for mobile users
-- **♿ Accessible** - Keyboard navigation and screen reader support
+- Photos, little films, and personal favorites.
+- Search by name, date, or album; filter by album and year.
+- Monthly chapters, newest/oldest sorting, and 24 memories per page.
+- A large viewer with keyboard navigation, photo swipes, and video controls.
+- Small image previews; videos only load when opened.
+- Favorites stay in the current browser, including across visits.
 
-## 📁 File Structure
+## Preview locally
 
-```
-baby-inaya.github.io/
-├── index.html          # Main webpage
-├── style.css           # All styling (pink theme)
-├── script.js           # Interactive functionality
-├── images/             # Place all baby photos here
-│   └── Screenshot (212).png
-├── videos/             # Place all baby videos here
-│   └── 2025-08-07 22-56-06.mp4
-└── README.md           # This file
+From the repository folder:
+
+```powershell
+python scripts/serve.py
 ```
 
-## 🚀 How to Use
+Open **http://127.0.0.1:8000**. The server supports video seeking and listens only on this computer. You can also open `index.html` directly; a local server gives the most consistent video behavior.
 
-### Adding New Photos/Videos
+## Add more memories
 
-1. **For Photos**: Simply drop any image file (JPG, PNG, GIF, etc.) into the `images/` folder
-2. **For Videos**: Drop any video file (MP4, WebM, etc.) into the `videos/` folder
-3. **File Naming**: Use descriptive names like `first-smile.jpg` or `crawling-milestone.mp4`
-4. **Ordering**: Files will be displayed in alphabetical order by filename
+Python 3.10+ and FFmpeg/ffprobe must be on PATH for importing or converting media.
+Preparing a Pages snapshot only requires Python 3.10+.
 
-### Website Features
+Import new photos and videos from the Videos folder:
 
-- **Gallery View**: All media appears in a responsive grid
-- **Thumbnail Navigation**: Scroll through thumbnails at the bottom
-- **Full-Screen Mode**: Click any image/video to view in full screen
-- **Navigation Controls**:
-  - Left/Right arrow buttons
-  - Keyboard arrow keys
-  - Swipe gestures on mobile
-  - Click thumbnails to jump to specific item
-
-## 🎨 Customization
-
-### Changing Colors
-The website uses a pink theme. To change colors, edit these CSS variables in `style.css`:
-
-```css
-/* Main pink colors */
---primary-pink: #ec4899;
---dark-pink: #be185d;
---light-pink: #fdf2f8;
+```powershell
+python scripts/build_media.py --source "C:\Users\User\Videos"
 ```
 
-### Adding Baby Info
-Update the header in `index.html`:
+Or place files in `images/` and `videos/`, using subfolders for albums, then run:
 
-```html
-<h1 class="baby-name">Inaya Mahnoor</h1>
-<p class="baby-info">Born April 22, 2025</p>
+```powershell
+python scripts/build_media.py
 ```
 
-## 📱 Mobile Experience
+The builder checks file contents, avoids duplicates, handles name collisions, generates previews, and refreshes `media/library.js`. Folder contents are discovered **when this command runs**; a static webpage cannot scan folders by itself.
 
-- **Touch Gestures**: Swipe left/right in full-screen mode
-- **Responsive Design**: Automatically adapts to screen size
-- **Fast Loading**: Optimized images and lazy loading
-- **Easy Navigation**: Large touch targets and smooth animations
+The saved size policy skips source files over **1,000,000,000 bytes (1 GB)**. Previously compressed source files are recognized, so reimporting does not restore their larger copies. Source files outside this repository are never changed.
 
-## 🔧 Technical Details
+Camera filenames and capture metadata provide dates. Unknown dates appear under “Timeless little moments.” Albums come from folder names. See [Adding memories](media/ADDING-MEMORIES.md) for details.
 
-### Browser Support
-- ✅ Chrome, Firefox, Safari, Edge
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
-- ✅ Modern JavaScript features
+## Video compression and the size limit
 
-### Performance Features
-- **Lazy Loading**: Images load as you scroll
-- **Optimized Media**: Responsive images and videos
-- **Smooth Animations**: CSS transitions and transforms
-- **Minimal JavaScript**: Lightweight and fast
+```powershell
+python scripts/optimize_media.py
+python scripts/optimize_media.py --apply
+```
 
-### Accessibility
-- **Keyboard Navigation**: Arrow keys and Escape
-- **Screen Reader Support**: Proper alt text and ARIA labels
-- **High Contrast**: Readable text and clear buttons
-- **Focus Management**: Proper tab order and focus indicators
+The first command previews the plan. `--apply` deletes repo media larger than 1 GB and compresses remaining videos over 100 MB with **H.264, CRF 20, preset veryfast, AAC 192 kbps, and MP4 faststart**. Resolution and frame rate are preserved for these CRF conversions. CRF is lossy; the setting aims for a close visual match, not identical pixels. The first batch used preset `fast`; subsequent runs default to `veryfast`. Use `--preset fast` or `--preset medium` for slower encoding.
 
-## 🚀 Deployment
+Existing smaller viewing copies of oversized originals are retained where available. Those earlier copies are up to 720p and are distinct from the full-resolution CRF 20 conversions. Files without such copies are removed from the gallery when the size limit is applied.
 
-### GitHub Pages
-1. Push your code to a GitHub repository
-2. Go to Settings > Pages
-3. Select your main branch as source
-4. Your site will be available at `https://yourusername.github.io/repository-name`
+A replacement must be smaller, have matching duration, dimensions, and display orientation, retain audio, and decode successfully. Otherwise the existing file stays. Completed conversions are recorded and skipped on reruns.
 
-### Local Testing
-1. Open `index.html` in any modern web browser
-2. Or use a local server: `python -m http.server 8000`
-3. Visit `http://localhost:8000`
+Videos with unsupported browser codecs also get a separate compatible playback copy when the catalog is built. The download button always points to the retained file for that memory.
 
-## 📝 Maintenance
+## Project files
 
-### Regular Updates
-- Add new photos and videos to their respective folders
-- The website will automatically detect and display new files
-- No code changes needed for new content
+```text
+index.html, style.css, script.js     Website
+images/, videos/                    Retained photos and videos
+thumbnails/                         Small gallery previews
+media/library.js, library.json      Generated gallery catalog
+media/playback/                     Browser-compatible video copies
+media/optimization-state.json       Size policy and replacement mappings
+media/optimization-report.json      Deletions and compression results
+scripts/build_media.py              Import and rebuild the catalog
+scripts/optimize_media.py           Apply the requested size/compression rules
+scripts/serve.py                    Local preview server
+```
 
-### File Management
-- **Recommended Image Formats**: JPG, PNG, WebP
-- **Recommended Video Formats**: MP4, WebM
-- **File Size**: Keep images under 5MB and videos under 50MB for fast loading
-- **Naming**: Use descriptive names with dates if desired
+`media/import-report.json` and `media/original-media-baseline.json` record the initial import before the later deletion/compression request. `media/optimization-report.json` records subsequent changes. Keep the state files: they prevent repeat imports from undoing compression.
 
-## 🎯 Future Enhancements
+## Verification
 
-Potential features you could add:
-- **Date Captions**: Display dates for each photo/video
-- **Categories**: Organize by milestones (first smile, first steps, etc.)
-- **Music Background**: Optional background music
-- **Share Buttons**: Easy sharing to social media
-- **Print Mode**: Special layout for printing photos
-- **Slideshow Mode**: Automatic slideshow with timer
+```powershell
+python -m unittest discover -s scripts -p "test_*.py" -v
+```
 
-## 💝 Special Features for Inaya
+Tests cover content deduplication, filename collisions, import preservation, browser playback conversion, saved size rules, and HTTP byte ranges. The site has no npm dependencies or build step.
 
-- **Personalized Header**: Shows Inaya's name and birth date
-- **Pink Theme**: Perfect for a baby girl
-- **Growth Tracking**: Easy to add photos as she grows
-- **Family Sharing**: Simple URL to share with family and friends
+## Publishing
 
----
+GitHub Pages has a [1 GB published-site limit](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
+GitHub rejects individual Git files [larger than 100 MiB](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
+Splitting the collection into upload batches does not reduce the final site size.
 
-**Made with ❤️ for Inaya Mahnoor**
+Prepare a complete, bounded snapshot from the full local collection:
 
-*Born April 22, 2025* 
+```powershell
+python scripts/prepare_pages.py
+python scripts/prepare_pages.py --apply
+```
+
+The first command previews the selection. The second copies it to the ignored
+`qa-output/pages/` folder. It refuses to overwrite an existing export; use a new
+`--output qa-output/pages-next` folder for another snapshot. The default total
+budget is 999,000,000 bytes, including a 2 MB reserve for generated metadata.
+The final snapshot is verified against this budget and the Pages limit.
+
+The exporter includes the website, source scripts and documentation, then selects
+the smallest complete memories first. Each memory keeps its retained original,
+thumbnail, and any required browser playback copy. The published catalogs list
+only included memories, so photos, playback, downloads, and counts stay consistent.
+The local collection, full catalogs, and existing Git index remain unchanged.
+No image or video is recompressed. The export includes `.nojekyll` so GitHub
+Pages serves the files directly, including filenames that begin with underscores.
+
+`media/pages-selection.json` inside the export records what was included or held
+back. Local import history, logs, old upload batches, and unused media are not
+part of the snapshot. Keep the full collection and its maintenance state files
+in this original checkout; a clone of the published snapshot is only the selected
+collection.
+
+The existing `codex/media-batches` branch contains a large first upload batch.
+It is unsuitable as the base of this Pages snapshot. The prepared
+`codex/pages-first-publish` branch starts from the existing GitHub `main` history
+and contains the bounded site in one new commit. Preparing a commit is separate
+from pushing or enabling Pages; no force push is needed.
+
+Do not use `git add .` in the full collection to prepare a Pages upload: that
+would include many gigabytes that the site cannot host. Future snapshots should
+replace the selected collection, with their catalog and size verified together.
+
+Files above 100 MB remain in the ignored `lage_files/` folder. The full local
+gallery can display them, but they are excluded from the Pages export. Publishing
+all memories at their current quality requires separate media hosting.
