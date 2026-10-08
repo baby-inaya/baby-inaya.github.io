@@ -54,7 +54,31 @@
         return hours ? `${hours}:${String(minutes).padStart(2, '0')}:${remainder}` : `${minutes}:${remainder}`;
     };
 
+
+    function updateHeroAge() {
+        const output = $('hero-age');
+        const birthday = document.querySelector('.birth-note time')?.dateTime;
+        if (!output || !birthday) return;
+        const [year, month, day] = birthday.split('-').map(Number);
+        const parts = new Intl.DateTimeFormat('en-GB', {
+            timeZone: 'Asia/Dhaka', year: 'numeric', month: 'numeric', day: 'numeric'
+        }).formatToParts(new Date());
+        const part = (name) => Number(parts.find((p) => p.type === name).value);
+        const today = new Date(Date.UTC(part('year'), part('month') - 1, part('day')));
+        const birth = new Date(Date.UTC(year, month - 1, day));
+        let months = Math.max(0, (today.getUTCFullYear() - year) * 12 + today.getUTCMonth() - (month - 1));
+        const anniversary = (n) => new Date(Date.UTC(year, month - 1 + n, day));
+        if (anniversary(months) > today) months = Math.max(0, months - 1);
+        const days = Math.max(0, Math.round((today - anniversary(months)) / 86400000));
+        const units = [[Math.floor(months / 12), 'year'], [months % 12, 'month'], [days, 'day']];
+        output.textContent = today < birth ? 'Our story begins soon' :
+            (units.filter(([n]) => n).map(([n, label]) => `${n} ${label}${n === 1 ? '' : 's'}`).join(', ') || '0 days') + ' old';
+        output.parentElement.hidden = false;
+    }
+
     function start() {
+        updateHeroAge();
+        setInterval(updateHeroAge, 60000);
         const gallery = $('gallery');
         if (!gallery) return;
         const library = window.MEDIA_LIBRARY;

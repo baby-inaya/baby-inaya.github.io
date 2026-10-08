@@ -2236,3 +2236,10 @@ button,a,input,select {
   }
 
 }
+
+/* A little age keepsake in the landing page corner. */
+.hero { position:relative; padding-top:110px; }
+.age-badge { position:absolute; top:18px; right:0; max-width:100%; padding:10px 16px; border:1px solid var(--line); border-radius:16px; background:var(--surface); color:var(--berry-dark); text-align:right; }
+.age-badge span { display:block; font-size:9px; letter-spacing:1.6px; }
+.age-badge strong { display:block; font-family:var(--serif); font-size:17px; font-weight:400; }
+@media(max-width:600px) { .hero { padding-top:108px; } .age-badge { padding:8px 12px; } .age-badge strong { font-size:15px; } }
