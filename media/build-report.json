@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T09:07:25+00:00",
+  "generatedAt": "2026-10-08T07:04:32+00:00",
   "source": null,
   "summary": {
     "sourceFiles": 0,
@@ -7,10 +7,10 @@
     "copiedFiles": 0,
     "copiedBytes": 0,
     "duplicateSourceFilesSkipped": 0,
-    "preExistingFilesVerifiedUnchanged": 502,
-    "libraryItems": 502,
-    "photos": 152,
-    "videos": 350,
+    "preExistingFilesVerifiedUnchanged": 464,
+    "libraryItems": 464,
+    "photos": 137,
+    "videos": 327,
     "undatedItems": 1,
     "thumbnailWarnings": 0,
     "sourceFilesSkippedBySizeLimit": 0,
@@ -341,26 +341,6 @@
       "bytes": 2869020
     },
     {
-      "path": "images/imported/Inaya Mahanoor/s26/20260910_152000.jpg",
-      "sha256": "b4034ff78e45721d504bc25fa85000c6dceb204f4a3db601591d3981a090c635",
-      "bytes": 2820891
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/s26/20260910_152133.jpg",
-      "sha256": "debb25b75a8eb062632325ab73011deb17423e8a712bf63d732ff6821476000a",
-      "bytes": 4644167
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/s26/20260910_152141.jpg",
-      "sha256": "fd7c6c4283265b0d60cf93e029446b5fede1c9e4ea7261425c9e795f44979057",
-      "bytes": 4911821
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/s26/20260910_152144.jpg",
-      "sha256": "66bf4002ca901f0af521d896e4639eaf8bd7f0c90cd1cd67030d1580420c2731",
-      "bytes": 4762586
-    },
-    {
       "path": "images/imported/Inaya Mahanoor/s26/20260910_153719.jpg",
       "sha256": "b6edea7b9d9c10ca060b64ca942490de9e9354064a9dabb46e9022508eb73b9d",
       "bytes": 23690685
@@ -374,26 +354,6 @@
       "path": "images/imported/Inaya Mahanoor/s26/20260910_153735.jpg",
       "sha256": "c1ab5deca01b386da98d4c3d5f725aad02559e93da2c4ba3ac0256bcc63784a7",
       "bytes": 25148357
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/s26/20260910_175108.jpg",
-      "sha256": "f0fadeb33f4996d2531f1060e3ac8cd6b74cd37376e0372ad6b783baf25f91a8",
-      "bytes": 800255
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/s26/20260910_175247.jpg",
-      "sha256": "2758252e039964e592345f489d81aa26b8530e304816e55964a188c5d65bf525",
-      "bytes": 683612
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/s26/20260910_175254.jpg",
-      "sha256": "a88b41fc6ef9f1311a873c840b4b2b377a0369451a9739f4647955e8be442b7a",
-      "bytes": 665381
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/s26/20260910_175608.jpg",
-      "sha256": "8d877470302d2ff35b4be29791daa167878547521acae7e30243f8cc473be066",
-      "bytes": 1110636
     },
     {
       "path": "images/imported/Inaya Mahanoor/s26/20260910_185020.jpg",
@@ -479,41 +439,6 @@
       "path": "images/imported/Inaya Mahanoor/s26/20260912_231804.jpg",
       "sha256": "fff6d04aef9dfee0ec2586281b7be98c832020e80337022dfbf14462b869d7cd",
       "bytes": 5007449
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/tamanna's phone/IMG_20251017_160649.jpg",
-      "sha256": "5904da64824d02b445b9cf2f156d27d1519ea05cbc1ae06cdc12449cd18ee2f2",
-      "bytes": 2663874
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/tamanna's phone/IMG_20251022_100312.jpg",
-      "sha256": "9631477dfbe648ee012a5798fd5a2562d16bab8b6314c3376e8482ecba82d1ab",
-      "bytes": 2489038
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/tamanna's phone/IMG_20251022_100319.jpg",
-      "sha256": "6a57443866288adbd44b051ee5b41a13e73c19692780a2f09d1ed02f9fdc05ca",
-      "bytes": 2035860
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/tamanna's phone/IMG_20251024_193416.jpg",
-      "sha256": "74a93d2fc0c6bb167f5b93ccec65b5b91356305445ce69f1923ceaf47b1775cd",
-      "bytes": 10039357
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/tamanna's phone/IMG_20251024_193422.jpg",
-      "sha256": "5be792188587464609e36f95a0dee9ba3c727900a99b76dbb1873c6540d0ca73",
-      "bytes": 11079837
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/tamanna's phone/IMG_20251024_193426.jpg",
-      "sha256": "6bf019e26a5df3e99a8de10b355c2de731074f0a8e556f8ae0dbe8c515e74d6d",
-      "bytes": 7985583
-    },
-    {
-      "path": "images/imported/Inaya Mahanoor/tamanna's phone/IMG_20251024_193427.jpg",
-      "sha256": "865b88067394d043d128841786a0041c02e5378f889e7cdc16033b80dc12264e",
-      "bytes": 8040269
     },
     {
       "path": "images/imported/Inaya Mahanoor/tamanna's phone/IMG_20251024_193434.jpg",
@@ -806,31 +731,6 @@
       "bytes": 27946173
     },
     {
-      "path": "videos/imported/Inaya Mahanoor/VID_20250502_073839.mp4",
-      "sha256": "5a468dd7486287e73d6f15341e48a72eeb688b0ba4989765b1aeff4a12ba13b3",
-      "bytes": 62668661
-    },
-    {
-      "path": "videos/imported/Inaya Mahanoor/VID_20250524_091319.mp4",
-      "sha256": "4f50951722266cd9c3331dd0bf2f028a2564287ad325c80ded243cae45f76480",
-      "bytes": 68625910
-    },
-    {
-      "path": "videos/imported/Inaya Mahanoor/VID_20250524_173519.mp4",
-      "sha256": "7dcae501d0aefd0e1b8b30818dd39207360efc2cba394a8221952753583b19a2",
-      "bytes": 65411054
-    },
-    {
-      "path": "videos/imported/Inaya Mahanoor/VID_20250612_160621.mp4",
-      "sha256": "edff912761d0f7b6cd8f78c64840025c09c7348f5a408ea63a0a673239681c74",
-      "bytes": 80412374
-    },
-    {
-      "path": "videos/imported/Inaya Mahanoor/VID_20250615_123005.mp4",
-      "sha256": "e58eae882d612813b2930b54c9dccbd7c23cdb323537fff4edcb644b24571ab1",
-      "bytes": 85212168
-    },
-    {
       "path": "videos/imported/Inaya Mahanoor/VID_20250701_104916.mp4",
       "sha256": "afda759f8f9d38e8df8d3c4e65d5616245aa522e08b03caccc2a0cc1af3baaf7",
       "bytes": 67602525
@@ -839,16 +739,6 @@
       "path": "videos/imported/Inaya Mahanoor/VID_20250710_141306.mp4",
       "sha256": "8aba49d4a52d923691d841ab557b891d13ef907be144e160da692450b8445839",
       "bytes": 68114980
-    },
-    {
-      "path": "videos/imported/Inaya Mahanoor/VID_20250712_185813.mp4",
-      "sha256": "58f02736bc8a775541675e58768eb00fe5f33dccb1668a174aac68ea07817be2",
-      "bytes": 90654817
-    },
-    {
-      "path": "videos/imported/Inaya Mahanoor/VID_20250810_221525.mp4",
-      "sha256": "559078b7785e25816bfb99530a46dcfcbbda51c631f2c772af7eca2563d73a4f",
-      "bytes": 54820355
     },
     {
       "path": "videos/imported/Inaya Mahanoor/VID_20250830_092626.mp4",
@@ -891,11 +781,6 @@
       "bytes": 25499030
     },
     {
-      "path": "videos/imported/Inaya Mahanoor/from desktop/2025-07-22 20-53-30.mp4",
-      "sha256": "3dc3ef26166b8c9b9f3e5bfa939c0b585c9bdbe0d193260debd86c36a80f78c8",
-      "bytes": 51039340
-    },
-    {
       "path": "videos/imported/Inaya Mahanoor/from desktop/2025-07-22 20-53-30_1.mp4",
       "sha256": "a8c003b327a57d35244ac90f542f77540b41bda7ec2e93c3fd11c76933f1679b",
       "bytes": 40823386
@@ -929,26 +814,6 @@
       "path": "videos/imported/Inaya Mahanoor/from desktop/2025-07-22 20-53-30_7.mp4",
       "sha256": "4f1254b23be187d371bd4bc5c152967abc840f89094d619597c237e7215ac09c",
       "bytes": 23695204
-    },
-    {
-      "path": "videos/imported/Inaya Mahanoor/from desktop/VID_20251111_114221.mp4",
-      "sha256": "aa1bd4b739fc2ec842c6add69845458f2fbef8a7579305a2bf3a75e3038943ef",
-      "bytes": 72444658
-    },
-    {
-      "path": "videos/imported/Inaya Mahanoor/from desktop/inaya on bed.mp4",
-      "sha256": "c2af9acec05100f78f8d942c06278e033e4228bb2aefd74d2873333aabed4454",
-      "bytes": 23927711
-    },
-    {
-      "path": "videos/imported/Inaya Mahanoor/from desktop/inaya_at_rooftop.mp4",
-      "sha256": "d471d868048d26c3dd150dfb59fa536d1e5056ce79b6871c8745ced48f5c0cf4",
-      "bytes": 76299944
-    },
-    {
-      "path": "videos/imported/Inaya Mahanoor/from desktop/mockintro.mp4",
-      "sha256": "52edf17b9e00242065f2c921b0b44727c3487ee89076db1652967b94093a0bcb",
-      "bytes": 9894527
     },
     {
       "path": "videos/imported/Inaya Mahanoor/pp export/VID_20251015_102143.mp4",
@@ -1976,26 +1841,6 @@
       "bytes": 28220994
     },
     {
-      "path": "videos/imported/NVIDIA/OBS_2026-09-21_03-54-56--crf20.mp4",
-      "sha256": "0f939273bb8f66dae59e3052466b07179fb3c8f120b9a28157834ac04c91de23",
-      "bytes": 36428020
-    },
-    {
-      "path": "videos/imported/NVIDIA/OBS_2026-09-21_04-07-08--crf20.mp4",
-      "sha256": "6bac69e260f69c2847e9e398dec062baf73a8a05d61225ea2cbc87c9a63a52ba",
-      "bytes": 12198353
-    },
-    {
-      "path": "videos/imported/NVIDIA/OBS_2026-09-21_04-07-52--crf20.mp4",
-      "sha256": "091bca56ebb79654eab91fee5500301d1a7fb16867d843c01a13d8b26744a4c4",
-      "bytes": 53403173
-    },
-    {
-      "path": "videos/imported/NVIDIA/Desktop/Desktop 2026.08.31 - 00.53.37.02.mp4",
-      "sha256": "083399f8e6eadc30b615ae49da65290fbe7d703d3f485103b4c1f2089eb6ea8d",
-      "bytes": 33942265
-    },
-    {
       "path": "videos/imported/inaya prom dress/202602__/IMG_5103.MOV",
       "sha256": "1b2e394a1a746f3381c4bef93f576d9fe08fad97a6ba446853b14dd87f76fb67",
       "bytes": 79170205
@@ -2291,59 +2136,49 @@
       "bytes": 27348492
     },
     {
-      "path": "videos/retained/20260910_152017--c1eaa0b3a944.mp4",
+      "path": "videos/samsung log footage/20260910_152017--c1eaa0b3a944.mp4",
       "sha256": "9d0481bcdf27d21d8bacbb74679557c989f40c981ae10b8ffc26bc3b1f19ea49",
       "bytes": 4165480
     },
     {
-      "path": "videos/retained/20260910_152209--9f10703bcc92.mp4",
+      "path": "videos/samsung log footage/20260910_152209--9f10703bcc92.mp4",
       "sha256": "1162838c845aef4900474d00cd27e0dfedfb65c31e748e65a2f472f82e21281d",
       "bytes": 2160503
     },
     {
-      "path": "videos/retained/20260912_224759--530c42be1782.mp4",
-      "sha256": "e2e294f870e889d7a664c6bf880053b06ed1959c49f6237e9e07efdb4fe68e4e",
-      "bytes": 1685452
-    },
-    {
-      "path": "videos/retained/20260912_230956--8d0dd2fb6367.mp4",
+      "path": "videos/samsung log footage/20260912_230956--8d0dd2fb6367.mp4",
       "sha256": "a1e82d119a254143634f83f97d80966b6ac0fa21b40d31801554e2212755687c",
       "bytes": 4204864
     },
     {
-      "path": "videos/retained/20260912_231100--caaaf7938df7.mp4",
+      "path": "videos/samsung log footage/20260912_231100--caaaf7938df7.mp4",
       "sha256": "edf944d325ed93edf3e02fe0d1670c1331c44cd261655d74e6008a70397dcceb",
       "bytes": 3331424
     },
     {
-      "path": "videos/retained/20260912_231205--7f94fe178af4.mp4",
+      "path": "videos/samsung log footage/20260912_231205--7f94fe178af4.mp4",
       "sha256": "cbbf60bbd807d10578c8d75cff435d4d0b2d52ed8891858ce96cfa1124503f64",
       "bytes": 1860133
     },
     {
-      "path": "videos/retained/20260912_231251--02d59c77c816.mp4",
+      "path": "videos/samsung log footage/20260912_231251--02d59c77c816.mp4",
       "sha256": "7e7da5c7789fadae43d11f67cd244318b569fbcd0fb338159ffd03381b9f8d0c",
       "bytes": 2278652
     },
     {
-      "path": "videos/retained/20260912_231347--1a56b470126d.mp4",
+      "path": "videos/samsung log footage/20260912_231347--1a56b470126d.mp4",
       "sha256": "45753726007d9ef4fcbaaec2ac1d35772d876b5ecb11eeffa6782d2a10261874",
       "bytes": 2005630
     },
     {
-      "path": "videos/retained/20260912_231431--ecadc3273a2d.mp4",
+      "path": "videos/samsung log footage/20260912_231431--ecadc3273a2d.mp4",
       "sha256": "0eb13a02d09be5bc7ef96c3820676e6b596a36e19b1112052c4637391ecaa44c",
       "bytes": 1653647
     },
     {
-      "path": "videos/retained/20260912_231504--c072c9ca44ae.mp4",
+      "path": "videos/samsung log footage/20260912_231504--c072c9ca44ae.mp4",
       "sha256": "93e800b7db3916c9c6279a5ec9f29a19b3c96d734936cf91adee1ca57e2cbd0a",
       "bytes": 3723137
-    },
-    {
-      "path": "videos/retained/VID_20240524_164032--d0d26d6ba9ed.mp4",
-      "sha256": "961a1717e855091c6316727b63cb6561dbfaee4e837f79990e577a5554b998d5",
-      "bytes": 31688345
     },
     {
       "path": "lage_files/videos/imported/2025-07-13 18-03-38.mp4",
@@ -2369,11 +2204,6 @@
       "path": "lage_files/videos/imported/Inaya Mahanoor/VID_20250830_092347.mp4",
       "sha256": "873c209cf7f794cbb06d0cb71fdc51c7739ea4e60c789daad6212579bec46bdd",
       "bytes": 159075418
-    },
-    {
-      "path": "lage_files/videos/imported/Inaya Mahanoor/VID_20250907_172951.mp4",
-      "sha256": "4887565fbc57d8af1599e876e75fbd7e39ca13db5185a9629c4dbc55db0dbba4",
-      "bytes": 163662814
     },
     {
       "path": "lage_files/videos/imported/Inaya Mahanoor/VID_20250907_173411.mp4",
@@ -2421,24 +2251,9 @@
       "bytes": 106091914
     },
     {
-      "path": "lage_files/videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231221_111411.mp4",
-      "sha256": "6955fa47a6cef78bf76d8f18859289c0c15bf175e9362802d2c39511cb3e368a",
-      "bytes": 114695822
-    },
-    {
       "path": "lage_files/videos/imported/Inaya Mahanoor/tamanna's phone/VID_20231223_064040.mp4",
       "sha256": "f023bfb0c7086005315a60e2553b6f4b0babc484cb66963947c877e812f1d6eb",
       "bytes": 140067995
-    },
-    {
-      "path": "lage_files/videos/imported/Inaya Mahanoor/tamanna's phone/VID_20240524_180831.mp4",
-      "sha256": "4c09ec10a5829b71e1fe4b06f65dc973df1293483df2af0ac7d46f89cbbd4f14",
-      "bytes": 109314874
-    },
-    {
-      "path": "lage_files/videos/imported/Inaya Mahanoor/tamanna's phone/VID_20250117_140849.mp4",
-      "sha256": "b4f8c877179cff9fd1992bb22c8e09da412b6ac711f1b7fdb4d8185826cfdb39",
-      "bytes": 104651356
     },
     {
       "path": "lage_files/videos/imported/Inaya Mahanoor/tamanna's phone/VID_20251024_193038.mp4",
@@ -2529,11 +2344,6 @@
       "path": "lage_files/videos/imported/military meuseum/GH020647.MP4",
       "sha256": "73776bd33ddfa7e8840d6212167f8b53ae2d4d6a423e3a1b6a3ebf34a627e4b2",
       "bytes": 193524042
-    },
-    {
-      "path": "lage_files/videos/imported/military meuseum/GX010656.MP4",
-      "sha256": "5f28d6adf97ba929fccf8612e2d88723311bed8fb219193cffd759dbcf6bb08c",
-      "bytes": 120983622
     }
   ],
   "warnings": []
