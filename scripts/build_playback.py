@@ -34,7 +34,8 @@ def needs_playback_copy(path: Path, metadata):
     video_safe = video.get('codec_name') in SAFE_VIDEO_CODECS and video.get('pix_fmt') in SAFE_PIXEL_FORMATS
     audio_safe = audio is None or audio.get('codec_name') in SAFE_AUDIO_CODECS
     container_safe = path.suffix.lower() in {'.mp4', '.m4v'}
-    return not (video_safe and audio_safe and container_safe), video_safe, audio_safe
+    # Always make a compact streaming copy, including browser-compatible originals.
+    return True, False, False
 
 
 def make_playback_copy(source, destination, metadata, video_safe, audio_safe):
@@ -46,15 +47,15 @@ def make_playback_copy(source, destination, metadata, video_safe, audio_safe):
     if video_safe:
         command += ['-c:v', 'copy']
     else:
-        command += ['-vf', "scale=w='if(gte(iw,ih),min(1280,iw),min(720,iw))':h='if(gte(iw,ih),min(720,ih),min(1280,ih))':force_original_aspect_ratio=decrease:force_divisible_by=2,setsar=1",
-                    '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '25', '-pix_fmt', 'yuv420p', '-threads', '2']
+        command += ['-vf', "scale=w='if(gte(iw,ih),min(854,iw),min(480,iw))':h='if(gte(iw,ih),min(480,ih),min(854,ih))':force_original_aspect_ratio=decrease:force_divisible_by=2,setsar=1",
+                    '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '30', '-maxrate', '750k', '-bufsize', '1500k', '-pix_fmt', 'yuv420p', '-threads', '2']
         video = next((s for s in metadata.get('streams', []) if s.get('codec_type') == 'video'), {})
         try:
             if float(Fraction(video.get('avg_frame_rate', '30'))) > 30:
                 command += ['-r', '30']
         except (ValueError, ZeroDivisionError):
             pass
-    command += ['-c:a', 'copy'] if audio_safe else ['-c:a', 'aac', '-b:a', '128k']
+    command += ['-c:a', 'copy'] if audio_safe else ['-c:a', 'aac', '-b:a', '64k', '-ac', '2']
     command += ['-movflags', '+faststart', '-max_muxing_queue_size', '2048', '-y', str(temporary)]
     started = time.monotonic()
     process = subprocess.Popen(command, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)

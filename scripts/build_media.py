@@ -281,8 +281,8 @@ def generate_item(path, digest, provenance, old_item, force=False):
             command = ['ffmpeg', '-hide_banner', '-loglevel', 'error', '-nostdin', '-threads', '1']
             if seek: command += ['-ss', str(seek)]
             command += ['-i', str(path), '-map', '0:v:0', '-frames:v', '1', '-vf',
-                        "scale=w='min(800,iw)':h='min(800,ih)':force_original_aspect_ratio=decrease,setsar=1",
-                        '-q:v', '4', '-threads', '1', '-y', str(thumbnail)]
+                        "scale=w='min(480,iw)':h='min(480,ih)':force_original_aspect_ratio=decrease,setsar=1",
+                        '-q:v', '7', '-threads', '1', '-y', str(thumbnail)]
             try:
                 result = subprocess.run(command, capture_output=True, timeout=120)
                 if result.returncode == 0 and thumbnail.is_file() and thumbnail.stat().st_size > 0:

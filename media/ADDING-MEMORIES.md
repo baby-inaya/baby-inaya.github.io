@@ -22,7 +22,7 @@ python scripts/build_media.py
 
 The command builds `library.js`, `library.json`, and JPEG thumbnails. The webpage needs this generated catalog to discover new files. Use `--force-previews` to regenerate thumbnails or `--verify` to rehash retained files.
 
-Unsupported video codecs receive a browser-compatible H.264 playback copy, up to 720p. Compatible MOV files are repackaged as MP4. Use `--skip-playback` for a quick catalog refresh, then `python scripts/build_playback.py` to create missing browser copies.
+Thumbnails are JPEGs up to 480 pixels on the longest edge (FFmpeg quality 7). Every video receives a separate browser-compatible H.264 playback copy up to 854x480 (480x854 for portrait), at most 30 fps, CRF 30 with a 750 kb/s video ceiling and 64 kb/s stereo AAC audio. Full-size originals remain unchanged. Existing playback copies are reused; remove only the generated `media/playback/` copies to rebuild them with these settings. Use `--skip-playback` for a quick catalog refresh, then `python scripts/build_playback.py` to create missing browser copies.
 
 ## Compress and apply the size limit
 
